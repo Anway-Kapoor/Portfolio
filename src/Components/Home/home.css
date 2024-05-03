@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"), url(../../assets/fonts/Rubik-Regular.ttf);
+}
+
+
+
+.home-gallery-container {
+  margin: 2em;
+  background-color: var(--background-color);
+  border-radius: 1em;
+  border-width: var(--borderWidth);;
+  border-style: solid;
+  border-radius: 1em;
+  padding: 1em;
+  transition: 0.2s;
+  border-color: var(--text-color);
+}
+
+.home-title {
+  font-family: Rubik-Regular, serif;
+  font-size: 3em;
+  color: var(--text-color);
+  padding: 0.25em
+}
+
+.home-about-container{
+  display: block;
+/*   grid-template-columns: 20% 80%; */
+  margin: 2em;
+  padding: 1em;
+  background-color: var(--background-color);
+  border-width: var(--borderWidth);
+  border-style: solid;
+  border-radius: 1em;
+  border-color: var(--text-color);
+}
+
+.home-about-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+  color: var(--text-color);
+}
+
+/* ###################################### */
+
+@media (max-width: 768px) {
+  .home-title{
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-title{
+    font-size: 1.5em;
+  }
+}
